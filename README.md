@@ -163,17 +163,27 @@ Randomly shuffles until the array is sorted (for fun only).
 ## ⚙️ Getting Started
 
 ### 🔧 Prerequisites
-- [Node.js](https://nodejs.org/)
-- [React.js](https://reactjs.org/)
+
+Make sure you have the following installed:
+
+- 📦 [Node.js](https://nodejs.org/) (v14 or newer recommended)
+- ⚛️ [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
 ---
 
-### 📦 Installation
+### 📦 Installation & Run
+
+Follow these steps to set up the project locally:
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/sorting-algorithm-visualizer.git
+
+# 2. Navigate into the project directory
+cd sorting-algorithm-visualizer
+
+# 3. Install dependencies
 npm install
 
-### 📦 Run
-
-```bash
+# 4. Start the development server
 npm run dev
