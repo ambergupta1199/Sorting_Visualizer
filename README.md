@@ -1,53 +1,174 @@
-# Sorting Algorithm Visualizer
+# 🔢 Sorting Algorithm Visualizer
 
-This project is a fun React based web app that helps users understand how different sorting algorithms work. Users can watch these algorithms sort data in real time, step by step. The app lets users control the speed of the sorting process and provides simple explanations of how each algorithm works, making it a great tool for learning about sorting in an easy-to-understand way.
+Welcome to the **Sorting Algorithm Visualizer** – a fun and interactive **React-based web app** that helps users **understand and compare different sorting algorithms**. Watch the algorithms sort data in real time, control the speed, and learn how each one works with simple explanations.
 
-## Features
+---
 
-- **Sorting Algorithms & Their Time Complexity**: bubbleSort,
-      insertionSort,
-      selectionSort,
-      mergeSort,
-      quickSort,
-      radixSort,
-      heapSort,
-      countingSort,
-      combSort,
-      shellSort,
-      gnomeSort,
-      bogoSort
+## 🚀 Features
 
-- **Live Visualization**: Live Visualization: Watch the sorting process in action with bars depicting each element that show how the algorithm works.
+- 🔄 **Live Visualization** — Real-time bar animations showing each step of the sorting process.
+- 🧠 **Simple Explanations** — Easy-to-understand info boxes describing each algorithm.
+- 🔍 **Algorithm Comparison** — See and compare the **time and space complexity** of all supported algorithms.
+- 🎮 **Custom Input** — Users can enter their own array to sort.
+- ⏱️ **Speed Control** — Choose from **Slow**, **Normal**, or **Fast** modes.
+- 📏 **Magnitude Visualization** — Height of each bar represents the numerical value of the element.
 
-- **Simple Explanation**: As you watch the sorting, you’ll also get an easy-to-understand explanation of how the algorithm works.
+---
 
-- **Algorithm Comparison**: You can compare the time and space complexity of different sorting algorithms to see how they perform.
+## 📚 Supported Sorting Algorithms
 
-## Getting Started
+- 🫧 Bubble Sort  
+- 📌 Insertion Sort  
+- 🔎 Selection Sort  
+- 🧩 Merge Sort  
+- ⚡ Quick Sort  
+- 🏗️ Heap Sort  
+- 🧮 Counting Sort  
+- 📊 Radix Sort  
+- 🧼 Comb Sort  
+- 🐚 Shell Sort  
+- 🧙 Gnome Sort  
+- 🤪 Bogo Sort  
 
-### Prerequisites
+---
 
-- React.js
-- Node.js
+## 🧪 Algorithm Comparison Table
 
-### Installation
+| Algorithm      | Best Time | Average Time | Worst Time | Space Complexity | Stable |
+|----------------|-----------|--------------|------------|------------------|--------|
+| 🫧 **Bubble Sort**   | O(n)      | O(n²)        | O(n²)      | O(1)             | ✅     |
+| 📌 **Insertion Sort**| O(n)      | O(n²)        | O(n²)      | O(1)             | ✅     |
+| 🔎 **Selection Sort**| O(n²)     | O(n²)        | O(n²)      | O(1)             | ❌     |
+| 🧩 **Merge Sort**    | O(n log n)| O(n log n)   | O(n log n) | O(n)             | ✅     |
+| ⚡ **Quick Sort**    | O(n log n)| O(n log n)   | O(n²)      | O(log n)         | ❌     |
+| 🏗️ **Heap Sort**     | O(n log n)| O(n log n)   | O(n log n) | O(1)             | ❌     |
+| 🧮 **Counting Sort** | O(n + k)  | O(n + k)     | O(n + k)   | O(k)             | ✅     |
+| 📊 **Radix Sort**    | O(nk)     | O(nk)        | O(nk)      | O(n + k)         | ✅     |
+| 🧼 **Comb Sort**     | O(n log n)| O(n²)        | O(n²)      | O(1)             | ❌     |
+| 🐚 **Shell Sort**    | O(n log n)| O(n^1.5)     | O(n²)      | O(1)             | ❌     |
+| 🧙 **Gnome Sort**    | O(n)      | O(n²)        | O(n²)      | O(1)             | ✅     |
+| 🤪 **Bogo Sort**     | O(n)      | O((n+1)!)    | O((n+1)!)  | O(n)             | ❌     |
 
-1. Install the dependencies:
+---
+
+## 💡 Algorithm Descriptions
+
+### 🫧 Bubble Sort
+Simple comparison-based algorithm that repeatedly swaps adjacent elements if they are in the wrong order.
+
+- **Best:** O(n)  
+- **Average:** O(n²)  
+- **Worst:** O(n²)  
+- **Space:** O(1)
+
+---
+
+### ⚡ Quick Sort
+Efficient divide-and-conquer algorithm. Picks a pivot, partitions around it, and sorts recursively.
+
+- **Best:** O(n log n)  
+- **Average:** O(n log n)  
+- **Worst:** O(n²)  
+- **Space:** O(log n)
+
+---
+
+### 🧩 Merge Sort
+Divide-and-conquer sorting algorithm. Splits array, sorts, and merges.
+
+- **Best / Avg / Worst:** O(n log n)  
+- **Space:** O(n)
+
+---
+
+### 📌 Insertion Sort
+Builds a sorted array one element at a time.
+
+- **Best:** O(n)  
+- **Average:** O(n²)  
+- **Worst:** O(n²)  
+- **Space:** O(1)
+
+---
+
+### 🔎 Selection Sort
+Finds the minimum in unsorted part and places it at the beginning.
+
+- **All Cases:** O(n²)  
+- **Space:** O(1)
+
+---
+
+### 🏗️ Heap Sort
+Uses a max heap to sort the array.
+
+- **Best / Avg / Worst:** O(n log n)  
+- **Space:** O(1)
+
+---
+
+### 📊 Radix Sort
+Non-comparative, groups and sorts digits by place value.
+
+- **All Cases:** O(nk)  
+- **Space:** O(n + k)
+
+---
+
+### 🧮 Counting Sort
+Counts occurrences of elements and uses it to position items.
+
+- **All Cases:** O(n + k)  
+- **Space:** O(k)
+
+---
+
+### 🧼 Comb Sort
+Improved Bubble Sort using gaps to speed up the sorting process.
+
+- **Best:** O(n log n)  
+- **Average / Worst:** O(n²)  
+- **Space:** O(1)
+
+---
+
+### 🐚 Shell Sort
+Generalized Insertion Sort with gap-based comparisons.
+
+- **Best:** O(n log n)  
+- **Average:** O(n^1.5)  
+- **Worst:** O(n²)  
+- **Space:** O(1)
+
+---
+
+### 🧙 Gnome Sort
+Like Insertion Sort but with swaps and steps back.
+
+- **Best:** O(n)  
+- **Average / Worst:** O(n²)  
+- **Space:** O(1)
+
+---
+
+### 🤪 Bogo Sort
+Randomly shuffles until the array is sorted (for fun only).
+
+- **Best:** O(n)  
+- **Avg / Worst:** O((n+1)!)  
+- **Space:** O(n)
+
+---
+
+## ⚙️ Getting Started
+
+### 🔧 Prerequisites
+- [Node.js](https://nodejs.org/)
+- [React.js](https://reactjs.org/)
+
+---
+
+### 📦 Installation
 
 ```bash
-
 npm install
-
-```
-
-### Usage
-
-To run the app, run:
-
-
-
-npm run dev
-
-
-
-For more info on Sorting Algo, visit about page.
