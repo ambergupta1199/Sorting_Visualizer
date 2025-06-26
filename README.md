@@ -172,3 +172,8 @@ Randomly shuffles until the array is sorted (for fun only).
 
 ```bash
 npm install
+
+### 📦 Run
+
+```bash
+npm run dev
