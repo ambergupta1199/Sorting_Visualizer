@@ -1,3 +1,6 @@
+## Group Project(Course CS506 - DATA STRUCTURES AND ALGORITHM)
+- My role is to create a user input form where user can enter number, also created dropdown to select different algorithms, and manage their speed.
+- I also implemented Merge Sort, BOGO Sort, Bubble Sort algorithms.
 # 🔢 Sorting Algorithm Visualizer
 
 Welcome to the **Sorting Algorithm Visualizer** – a fun and interactive **React-based web app** that helps users **understand and compare different sorting algorithms**. Watch the algorithms sort data in real time, control the speed, and learn how each one works with simple explanations.
