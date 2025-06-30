@@ -1,4 +1,4 @@
-## Group Project(Course CS506 - DATA STRUCTURES AND ALGORITHM)
+## Group Project(Course CS506 - DATA STRUCTURES AND ALGORITHM)Total Members: 4
 - My role is to create a user input form where user can enter number, also created dropdown to select different algorithms, and manage their speed.
 - I also implemented Merge Sort, BOGO Sort, Bubble Sort algorithms.
 # 🔢 Sorting Algorithm Visualizer
